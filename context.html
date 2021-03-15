@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<meta name="viewport" content="width=device-width">
+<!-- GLOBAL CSS -->
+<link rel="stylesheet" type="text/css" href="css/global-style.css">
+<link rel="stylesheet" type="text/css" href="css/global-helpers.css">
+<link rel="stylesheet" type="text/css" href="css/width/width-default.css">
+<link rel="stylesheet" type="text/css" href="css/sizing/sizing-golden-default.css">
+<link rel="stylesheet" type="text/css" href="css/colors/colors-default.css">
+<link rel="stylesheet" type="text/css" href="css/navigation/url-style-default.css">
+
+
+<script src="rainbow-custom.min.js"></script>
+<link href="github.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<!--
+	https://jsfiddle.net/yqvxdaw5/3/
+	https://type-scale.com/
+	https://cssminifier.com/
+	https://dafrok.github.io/gzip-size-online/
+	https://feathericons.com/
+
+	3d
+	https://doc.babylonjs.com/divingDeeper/mesh/highlightLayer
+	https://forum.babylonjs.com/t/get-mesh-name-on-mesh-click/794
+-->
+<body class="tr -tr12 -top -gap-xl -pad-h-l ">
+	<div class="td -td2 -m0 -sticky">
+
+		<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-sticky</code>
+	
+		<h4>CORE CSS </h4>
+		<span class="-small">1.56kb GZip</span>
+		<ul class="-small -color-primary">
+			<li><a href="#COLUMNS-SYSTEM">COLUMNS SYSTEM</a></li>
+			<li><a href="#WIDTH">WIDTH</a></li>
+			<li><a href="#JUSTIFY">JUSTIFY</a></li>
+			<li><a href="#CONTENT-DIRECTION">CONTENT DIRECTION</a></li>
+			<li><a href="#VERTICAL-ALIGMENTS">VERTICAL ALIGMENTS</a></li>
+
+			<li><a href="#ITEMS-GAPPING">ITEMS GAPPING</a></li>
+			<li><a href="#ITEMS-PADDING">ITEMS PADDING</a></li>
+			<li><a href="#TEXT-COLORS">TEXT COLORS</a></li>
+			<li><a href="#BACKGROUND-COLORS">BACKGROUND COLORS</a></li>
+			<li><a href="#BORDERS-COLOR">BORDERS COLOR</a></li>
+			<li><a href="#BORDER-RADIUS">BORDER RADIUS</a></li>
+			<li><a href="#FONT-SIZES">FONT SIZES</a></li>
+			<li><a href="#IMAGES">IMAGES</a></li>
+			<li><a href="#FONT-SPACING">FONT SPACING</a></li>
+			<li><a href="#HAIR-LINE">HAIRLINE</a></li>
+			<li><a href="#SPACE">SPACE</a></li>
+
+
+		
+		</ul>
+		<div class="space -gap-l"></div>
+		
+	</div>
+
+	<div class="td -td9">
+		<div class="space -gap-m"></div>
+				<p class="-bg-c-dark-gray -pad-xs -color-white">Hyper compact, light and fast, atomic css design system dedicated for page builders </p>
+
+				<nav>
+					<ul class="tr -left -gap-s -mv">
+						<li class="td"><a href="index.html" class="" aria-label="/home-page">CORE CSS</a></li>
+						<li class="td"><a href="buttons.html" class="" aria-label="/o-nas">BUTTONS</a></li>
+						<li class="td"><a href="navigation.html" class="" aria-label="/blog">NAVIGATION</a></li>
+						<li class="td"><a href="forms.html" class="" aria-label="/blog">FORMS</a></li>
+						<li class="td"><a href="helpers.html" class="" aria-label="/blog">HELPERS</a></li>
+						<li class="td"><a href="source-code.html" class="" aria-label="/contact-form">SOURCE CODE</a></li>
+						<li class="td"><a href="gutenberg-plugin.html" class="" aria-label="/blog">GUTENBERG PLUGIN</a></li>
+						<li class="td"><a href="sojuz-PWA.html" class="" aria-label="/blog">SOJUZ PWA</a></li>
+					</ul>
+				</nav>
+			
+				<div class="-color-primary">
+					<h1>SOJUZ CSS FRAMEWORK</h1>
+					<h2 class="-reset">CORE CSS guidline </h2>
+				</div>
+			
+				<h3>All examplae are build on columns component</h1>
+
+				
+				<div class="tr -tr12 -td-pad-h-s -td-b -td-b-s -td-b-light-gray -gap-s">
+					<div class="td -td7 -pad-s">
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/align-justify.svg"></span><span>Justify</span>
+						</div>
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-left</a></td>
+								<td><a href="#">-right</a></td>
+								<td><a href="#">-center</a></td>
+
+								
+							</tr>
+
+							<tr>
+								<td>children</td>
+								<td><a href="#">-td-left</a></td>
+								<td><a href="#">-td-right</a></td>
+								<td><a href="#">-td-center</a></td>
+
+							</tr>
+							<tr>
+								<td>row</td>
+								<td><a href="#">-td-between</a></td>
+								<td><a href="#">-td-evenly</a></td>
+								<td></td>
+
+							</tr>
+						
+						</table>	
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/maximize.svg"></span><span>Padding</span>
+						</div>
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-pad-xs</a></td>
+								<td><a href="#">-pad-s</a></td>
+								<td><a href="#">-pad-m</a></td>
+								<td><a href="#">-pad-l</a></td>
+
+								
+							</tr>
+
+							<tr>
+								<td>children</td>
+								<td><a href="#">-td-pad-xs</a></td>
+								<td><a href="#">-td-pad-s</a></td>
+								<td><a href="#">-td-pad-m</a></td>
+								<td><a href="#">-td-pad-l</a></td>
+
+							</tr>
+							
+						
+						</table>	
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/maximize.svg"></span><span>Padding horizontal</span>
+						</div>
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-pad-xs</a></td>
+								<td><a href="#">-pad-s</a></td>
+								<td><a href="#">-pad-m</a></td>
+								<td><a href="#">-pad-l</a></td>
+
+								
+							</tr>
+
+							<tr>
+								<td>children</td>
+								<td><a href="#">-pad-xs</a></td>
+								<td><a href="#">-pad-s</a></td>
+								<td><a href="#">-pad-m</a></td>
+								<td><a href="#">-pad-l</a></td>
+
+							</tr>
+							
+						
+						</table>	
+							<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/square.svg"></span><span>Columns / group</span>
+						</div>
+						
+						<table class="-default">
+							
+							<tr>
+								<td>desktop</td>
+								<td><a href="#">tr</a></td>
+								<td><a href="#">-t12d</a></td>
+								<td><a href="#">-t4d</a></td>
+								<td><a href="#">-t3d</a></td>
+								<td><a href="#">-t2d</a></td>
+								<td><a href="#">-t1d</a></td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>mobile</td>
+								<td><a href="#">tr</a></td>
+								<td><a href="#">-t12m</a></td>
+								<td><a href="#">-t4m</a></td>
+								<td><a href="#">-t3m</a></td>
+								<td><a href="#">-t2m</a></td>
+							</tr>
+						</table>
+						
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/columns.svg"></span><span>Items / childrens</span>
+						</div>
+						<table class="-default">
+							<tr>
+								<td>desktop</td>
+								<td><a href="#">td</a></td>
+								<td><a href="#">-d1</a></td>
+								<td><a href="#">-d2</a></td>
+								<td><a href="#">-d3</a></td>
+								<td><a href="#">-d4</a></td>
+								<td><a href="#">-d5</a></td>
+								<td><a href="#">-d6</a></td>
+								<td><a href="#">-d7</a></td>
+								<td><a href="#">-d8</a></td>
+								<td><a href="#">-d9</a></td>
+								<td><a href="#">-d10</a></td>
+								<td><a href="#">-d11</a></td>
+								<td><a href="#">-d12</a></td>								
+							</tr>
+							
+							<tr>
+								<td>moblile</td>
+								<td><a href="#">td</a></td>
+								<td></td>
+								<td><a href="#">-m2</a></td>
+								<td><a href="#">-m3</a></td>
+								<td><a href="#">-m4</a></td>
+								<td><a href="#">-m5</a></td>
+								<td><a href="#">-m6</a></td>
+								<td><a href="#">-m7</a></td>
+								<td><a href="#">-m8</a></td>
+								<td><a href="#">-m9</a></td>
+								<td><a href="#">-m10</a></td>
+								<td><a href="#">-m11</a></td>
+							</tr>
+						</table>
+					</div>
+				
+					<div class="td -td5 -pad-s">
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/type.svg"></span><span>Font size</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-default</a></td>
+								<td><a href="#">-small</a></td>
+								<td><a href="#">-medium</a></td>
+								<td><a href="#">-large</a></td>
+								
+							</tr>
+						
+						</table>	
+
+
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/monitor.svg"></span><span>Width</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-w-full</a></td>
+								<td><a href="#">-w-wide</a></td>
+								<td><a href="#">-w-default</a></td>
+								<td><a href="#">-w-min</a></td>
+								
+							</tr>
+						
+						</table>	
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/grid.svg"></span><span>Gapping</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-gap-s</a></td>
+								<td><a href="#">-gap-m</a></td>
+								<td><a href="#">-gap-l</a></td>
+								<td><a href="#">-gap-xl</a></td>
+								
+							</tr>
+						
+						</table>	
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/square.svg"></span><span>Border color</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-b-dark-gray</a></td>
+								<td><a href="#">-b-light-gray</a></td>
+							</tr>
+							<tr>
+								<td>childrens</td>
+								<td><a href="#">-td-b-dark-gray</a></td>
+								<td><a href="#">-td-b-light-gray</a></td>
+							</tr>
+						
+						</table>	
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/square.svg"></span><span>Border radius</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-b-s</a></td>
+								<td><a href="#">-b-m</a></td>
+								<td><a href="#">-b-l</a></td>
+							</tr>
+							
+						
+						</table>	
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/trello.svg"></span><span>V-aligments</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>parent</td>
+								<td><a href="#">-top</a></td>
+								<td><a href="#">-middle</a></td>
+								<td><a href="#">-bottom</a></td>
+							</tr>
+							<tr>
+								<td>childrens</td>
+								<td><a href="#">-td-top</a></td>
+								<td><a href="#">-td-middle</a></td>
+								<td><a href="#">-td-bottom</a></td>
+							</tr>
+						
+						</table>	
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/corner-up-right.svg"></span><span>Direction</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td><a href="#">-col</a></td>
+								<td><a href="#">-row</a></td>
+								<td><a href="#">-col-reverse</a></td>
+								<td><a href="#">-row-reverse</a></td>
+								
+							</tr>
+						
+						</table>	
+
+						<div class="tr -left -middle -gap-s -mar-v-s">
+							<span><img src="img/grid.svg"></span><span>Display</span>
+						</div>
+
+						<table class="-default">
+							
+							<tr>
+								<td>flex:</td>
+								<td><a href="#">-f</a></td>
+								<td>grid:</a></td>
+								<td><a href="#">-g</a></td>
+								
+							</tr>
+						
+						</table>	
+					</div>	
+				</div>
+
+				
+
+
+				<div class="tr -tr12 -td-pad-h-s -td-b -td-b-s -td-b-light-gray  -gap-s">
+
+					<div class="td -td7 -pad-s">
+						
+					
+					</div>
+					<div class="td -td5 -pad-s">
+
+						
+					
+					</div>
+				</div>
+				<div class="space -gap-s"></div>
+			
+
+
+		
+
+
+
+
+		
+					
+			
+	
+			</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
+
+<style>
+	table{width:100%; border-collapse: collapse;}
+	tr {
+  		width: 100%;
+	}
+
+	tr:nth-of-type(even) {
+	  background-color: #ffffff47;
+	}
+
+	tr:nth-of-type(odd) {
+	  background-color: #00000003;
+	}
+	td{
+		padding:5px 2px;
+	}
+	span img{
+		opacity:0.5;
+	}
+</style>
+
+
+<!--
+	copy this:
+	https://codersblock.com/blog/highlight-text-inside-a-textarea/#the-plan
+

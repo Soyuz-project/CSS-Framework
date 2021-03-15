@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<meta name="viewport" content="width=device-width">
+<!-- GLOBAL CSS -->
+<link rel="stylesheet" type="text/css" href="css/global-style.css">
+<link rel="stylesheet" type="text/css" href="css/global-helpers.css">
+<link rel="stylesheet" type="text/css" href="css/width/width-default.css">
+<link rel="stylesheet" type="text/css" href="css/sizing/sizing-golden-default.css">
+<link rel="stylesheet" type="text/css" href="css/colors/colors-default.css">
+<link rel="stylesheet" type="text/css" href="css/navigation/url-style-default.css">
+
+
+<script src="rainbow-custom.min.js"></script>
+<link href="github.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<!--
+	https://jsfiddle.net/yqvxdaw5/3/
+	https://type-scale.com/
+	https://cssminifier.com/
+	https://dafrok.github.io/gzip-size-online/
+	https://feathericons.com/
+
+	3d
+	https://doc.babylonjs.com/divingDeeper/mesh/highlightLayer
+	https://forum.babylonjs.com/t/get-mesh-name-on-mesh-click/794
+-->
+<body class="tr -tr12 -top -gap-xl -pad-h-l ">
+	<div class="td -td2 -m0 -sticky">
+
+		<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-sticky</code>
+	
+		<h4>CORE CSS </h4>
+		<span class="-small">1.56kb GZip</span>
+		<ul class="-small -color-primary">
+			<li><a href="#COLUMNS-SYSTEM">COLUMNS SYSTEM</a></li>
+			<li><a href="#WIDTH">WIDTH</a></li>
+			<li><a href="#JUSTIFY">JUSTIFY</a></li>
+			<li><a href="#CONTENT-DIRECTION">CONTENT DIRECTION</a></li>
+			<li><a href="#VERTICAL-ALIGMENTS">VERTICAL ALIGMENTS</a></li>
+
+			<li><a href="#ITEMS-GAPPING">ITEMS GAPPING</a></li>
+			<li><a href="#ITEMS-PADDING">ITEMS PADDING</a></li>
+			<li><a href="#TEXT-COLORS">TEXT COLORS</a></li>
+			<li><a href="#BACKGROUND-COLORS">BACKGROUND COLORS</a></li>
+			<li><a href="#BORDERS-COLOR">BORDERS COLOR</a></li>
+			<li><a href="#BORDER-RADIUS">BORDER RADIUS</a></li>
+			<li><a href="#FONT-SIZES">FONT SIZES</a></li>
+			<li><a href="#IMAGES">IMAGES</a></li>
+			<li><a href="#FONT-SPACING">FONT SPACING</a></li>
+			<li><a href="#HAIR-LINE">HAIRLINE</a></li>
+			<li><a href="#SPACE">SPACE</a></li>
+
+
+		
+		</ul>
+		<div class="space -gap-l"></div>
+		
+	</div>
+
+	<div class="td -td9">
+		<div class="space -gap-m"></div>
+				<p class="-bg-c-dark-gray -pad-xs -color-white">Hyper compact, light and fast, atomic css design system dedicated for page builders </p>
+
+				<nav>
+					<ul class="tr -left -gap-s -mv">
+						<li class="td"><a href="index.html" class="" aria-label="/home-page">CORE CSS</a></li>
+						<li class="td"><a href="buttons.html" class="" aria-label="/o-nas">BUTTONS</a></li>
+						<li class="td"><a href="navigation.html" class="" aria-label="/blog">NAVIGATION</a></li>
+						<li class="td"><a href="forms.html" class="" aria-label="/blog">FORMS</a></li>
+						<li class="td"><a href="helpers.html" class="" aria-label="/blog">HELPERS</a></li>
+						<li class="td"><a href="source-code.html" class="" aria-label="/contact-form">SOURCE CODE</a></li>
+						<li class="td"><a href="gutenberg-plugin.html" class="" aria-label="/blog">GUTENBERG PLUGIN</a></li>
+						<li class="td"><a href="sojuz-PWA.html" class="" aria-label="/blog">SOJUZ PWA</a></li>
+					</ul>
+				</nav>
+			
+				<div class="-color-primary">
+					<h1>SOJUZ CSS FRAMEWORK</h1>
+					<h2 class="-reset">CORE CSS guidline </h2>
+				</div>
+			
+				<h3>All examplae are build on columns component</h1>
+
+				
+				
+
+
+				<div class="space -gap-l"></div>
+
+					<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+						<div class="td">
+							<h5>column one</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+						<div class="td">
+							<h5>column two</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+						<div class="td">
+							<h5>column three</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+					<div class="space -gap-s"></div>
+					<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+						<div class="td">
+							<h5>column four</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+						<div class="td">
+							<h5>column five</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+					<div class="space -gap-s"></div>
+					<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+						<div class="td">
+							<h5>column six</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						</div>
+					</div>
+					<div class="space -gap-m"></div>
+					
+							
+<pre class="-pad-h-s">
+	<code data-language="HTML">		 
+<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+	<div class="td">
+		<h5>column one</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ... </p>
+	</div>
+	<div class="td">
+		<h5>column two</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ... </p>
+	</div>
+	<div class="td">
+		<h5>column three</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ... </p>
+	</div>
+</div>
+<div class="space -gap-s"></div>
+<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+	<div class="td">
+		<h5>column four</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ... </p>
+	</div>
+	<div class="td">
+		<h5>column five</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ... </p>
+	</div>
+</div>
+<div class="space -gap-s"></div>
+<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+	<div class="td">
+		<h5>column six</h5>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, ... </p>
+	</div>
+</div>
+	</code>
+</pre>
+					
+
+				
+		
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				12 COLUMNS SYSTEM 
+			-->
+			<h3 id="COLUMNS-SYSTEM" class="subtitle">COLUMNS SYSTEM</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-tr12</code><div class="space -gap-s"></div>
+			<div class="tr -tr12 -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+				<div class="td -td6 -m6">
+					<p>column .-td6 .-m6</p>
+				</div>
+				<div class="td -td6 -m6">
+					<p>column .-td6 .-m6</p>
+				</div>
+			</div>
+			<div class="space -gap-s"></div>
+			
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -tr12 -gap-s">
+				<div class="td -td2 -m2">
+					<p>column .-td2 .-m2</p>
+				</div>
+				<div class="td -td2 -m2">
+					<p>column .-td2 .-m2</p>
+				</div>
+				<div class="td -td8 -m8">
+					<p>column .-td8 .-m8</p>
+				</div>
+			</div>
+			<div class="space -gap-s"></div>
+
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -tr12 -gap-s">
+				<div class="td -td4 -m4">
+					<p>column .-td4 .-m4</p>
+				</div>
+				<div class="td -td4 -m4">
+					<p>column .-td4 .-m4</p>
+				</div>
+				<div class="td -td4 -m4">
+					<p>column .-td4 .-m4</p>
+				</div>
+			</div>
+			<div class="space -gap-s"></div>
+
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -tr12 -gap-s">
+				<div class="td -td4 -m4">
+					<p>column .-td4 .-m4</p>
+				</div>
+				<div class="td -td8 -m8">
+					<p>column .-td8 .-m8</p>
+				</div>
+				
+			</div>
+			<div class="space -gap-m"></div>
+					
+							
+<pre class="-pad-h-s">
+	<code data-language="HTML">		 
+<div class="tr -tr12 -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+	<div class="td -td6">
+		<p>column .-td6</p>
+	</div>
+	<div class="td -td6">
+		<p>column .-td6</p>
+	</div>
+</div>
+<div class="space -gap-s"></div>
+
+<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -tr12 -gap-s">
+	<div class="td -td2">
+		<p>column .-td2</p>
+	</div>
+	<div class="td -td2">
+		<p>column .-td2</p>
+	</div>
+	<div class="td -td8">
+		<p>column .-td8</p>
+	</div>
+</div>
+<div class="space -gap-s"></div>
+
+<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -tr12 -gap-s">
+	<div class="td -td4">
+		<p>column .-td4</p>
+	</div>
+	<div class="td -td4">
+		<p>column .-td4</p>
+	</div>
+	<div class="td -td4">
+		<p>column .-td4</p>
+	</div>
+</div>
+<div class="space -gap-s"></div>
+
+<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -tr12 -gap-s">
+	<div class="td -td4">
+		<p>column .-td4</p>
+	</div>
+	<div class="td -td8">
+		<p>column .-td8</p>
+	</div>
+	
+</div>
+	</code>
+</pre>
+
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				WIDTH 
+			-->
+			<h3 id="WIDTH" class="subtitle">WIDTH</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-w-cr -w-min</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s -w-cr -w-min">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-w-cr -w-default</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s -w-default -w-cr">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-w-cr -w-wide</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s -w-wide -w-cr">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-w-full</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s -w-full">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				ITEMS DIRECTION
+			-->
+			<h3 id="CONTENT-DIRECTION" class="subtitle">CONTENT DIRECTION</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+			<div class="tr -tr12 -col -w-full -gap-m">
+				<div class="td -td6">
+
+					
+					<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-col</code><div class="space -gap-s"></div>
+					<div class="tr -col -reset -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-evenly">
+						<div class="td">
+							<p>item one</p>
+							<p>item two</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="td -td6">
+
+					<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-col-reverse</code><div class="space -gap-s"></div>
+					<div class="tr -col-reverse -reset -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-evenly">
+						<div class="td">
+							<p>item one</p>
+							<p>item two</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+
+			
+			<div class="tr -col -w-full -gap-m -tr12">
+				<div class="td -td6">
+
+					
+					<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-row</code><div class="space -gap-s"></div>
+					<div class="tr -row -reset -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-evenly">
+						<div class="td">
+							<p>item one</p>
+							<p>item two</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="td -td6">
+
+					<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-row-reverse</code><div class="space -gap-s"></div>
+					<div class="tr -row-reverse -reset -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-evenly">
+						<div class="td">
+							<p>item one</p>
+							<p>item two</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				JUSTIFY 
+			-->
+
+			<h3 id="JUSTIFY" class="subtitle">JUSTIFY</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-left</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -left">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-left</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-left">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-center</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -center">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-center</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-center">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-right</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -right">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-right</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-right">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-row -td-between</code><div class="space -gap-s"></div>
+			<div class="tr -row -reset -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-between">
+				<div class="td -middle">
+					<p>column one</p>
+					<div>[icon]</div>
+				</div>
+				<div class="td -middle">
+					<p>column two</p>
+					<div>[icon]</div>
+				</div>
+				<div class="td -middle">
+					<p>column three</p>
+					<div>[icon]</div>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-row -td-evenly</code><div class="space -gap-s"></div>
+			<div class="tr -row -reset -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-evenly">
+				<div class="td -middle">
+					<p>column one</p>
+					<div>[icon]</div>
+				</div>
+				<div class="td -middle">
+					<p>column two</p>
+					<div>[icon]</div>
+				</div>
+				<div class="td -middle">
+					<p>column three</p>
+					<div>[icon]</div>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				VERTICAL-ALIGMENTS 
+			-->
+			<h3 id="VERTICAL-ALIGMENTS" class="subtitle">VERTICAL ALIGMENTS </h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-top</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -top">
+				<div class="td">
+					<h3>H3 Lorem ipsum dolor sit amet,</h3><p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-middle</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -middle">
+				<div class="td">
+					<h4>H4 Lorem ipsum dolor sit amet,</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-bottom</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -bottom">
+				<div class="td">
+					<h3>H3 Lorem ipsum dolor sit amet,</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-top</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-top">
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="td">
+					<h3>H3 Lorem ipsum dolor sit amet,</h3><p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-middle</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-middle">
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="td">
+					<h1>H1 Lorem ipsum dolor sit amet,</h1><p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <h2>H2 Lorem ipsum dolor sit amet,</h2> <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-bottom</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s -td-bottom">
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+				<div class="td">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<h2>H2 Lorem ipsum dolor sit amet,</h2> <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			
+			<!-- 
+				ITEMS SPACING 
+			-->
+			<h3 id="ITEMS-GAPPING" class="subtitle">ITEMS GAPPING</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-gap-s</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-gap-m</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-m">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-gap-l</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-l">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">without gap</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -b -b-light-gray -td-bg-c-light-gray" >
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				ITEMS PADDING 
+			-->
+			<h3 id="ITEMS-PADDING" class="subtitle">ITEMS PADDING</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-pad-xs</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -b -b-light-gray -td-bg-c-light-gray -pad-xs -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-pad-s</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -b -b-light-gray -td-bg-c-light-gray -pad-s -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-pad-m</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -b -b-light-gray -td-bg-c-light-gray -pad-m -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-pad-l</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-h-s -b -b-light-gray -td-bg-c-light-gray -pad-l -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-pad-xs</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-xs -b -b-light-gray -td-bg-c-light-gray">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-pad-s</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-pad-m</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -td-pad-m">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-pad-l</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -td-pad-l">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				TEXT COLORS 
+			-->
+			<h3 id="TEXT-COLORS" class="subtitle">TEXT COLORS</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+			<div class="space -gap-l"></div>
+			<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -gap-s">
+				<div class="td">
+					<h3>Default color</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="td -color-primary">
+					<h3>Primary color</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="td -color-secondary">
+					<h3>Secondary color</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -gap-s">
+				<div class="td -color-white -bg-c-dark-gray -b-dark-gray">
+					<h3>White color</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="td -color-dark-gray">
+					<h3>Dark gray color</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="td -color-light-gray">
+					<h3>Light gray color</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+			</div>
+			<div class="space -gap-s"></div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+
+			<!-- 
+				BACKGROUND COLORS 
+			-->
+			<h3 id="BACKGROUND-COLORS" class="subtitle">BACKGROUND COLORS</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-bg-c-primary</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-dark-gray -bg-c-primary -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-bg-c-primary</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-dark-gray -td-bg-c-primary -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-bg-c-secondary</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-dark-gray -bg-c-secondary -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-bg-c-secondary</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-dark-gray -td-bg-c-secondary -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-bg-c-light-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-bg-c-light-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-bg-c-dark-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-dark-gray -bg-c-dark-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-bg-c-dark-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-dark-gray -td-bg-c-dark-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				BORDERS COLOR 
+			-->
+			<h3 id="BORDERS-COLOR" class="subtitle">BORDERS COLOR</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b-dark-gray</code><div class="space -gap-s"></div>
+			<!-- -------------------------------------------------------------- -->
+			<div class="tr -td-pad-s -b -b-dark-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-b-dark-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-dark-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b-light-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -b -b-light-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-td-b-light-gray</code><div class="space -gap-s"></div>
+			<div class="tr -td-pad-s -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+			
+
+			<!-- 
+				BORDERS RADIUS 
+			-->
+			<h3 id="BORDER-RADIUS" class="subtitle">BORDER RADIUS</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b-s</code><div class="space -gap-s"></div>
+			<div class="tr -b -b-s -pad-h-m -b -b-light-gray -bg-c-light-gray  -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b-m</code><div class="space -gap-s"></div>
+			<div class="tr -b -b-m -pad-h-m -b -b-light-gray -bg-c-light-gray  -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b-l</code><div class="space -gap-s"></div>
+			<div class="tr -b -b-l -pad-m -b -b-light-gray -bg-c-light-gray  -gap-s">
+				<div class="td">
+					<h4>column one</h4><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<h4>column two</h4><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="td">
+					<h4>column three</h4><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b-s</code><div class="space -gap-s"></div>
+			<div class="tr -td-b-s -td-pad-h-m -td-b -td-b-s -td-b-light-gray -td-bg-c-light-gray -gap-s">
+				<div class="td">
+					<p>column one</p>
+				</div>
+				<div class="td">
+					<p>column two</p>
+				</div>
+				<div class="td">
+					<p>column three</p>
+				</div>
+			</div>
+			<hr class="-mar-v-m -b -b-light-gray">
+
+			<!-- 
+				BORDERS 
+			-->
+			<h3 id="FONT-SIZES" class="subtitle">FONT SIZES</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+			
+			<div class="space -gap-m"></div>
+			<div class="tr -td-b-light-gray -gap-l">
+				<div class="td">
+					
+						<h1 >H1 Lorem ipsum dolor sit amet,</h1>
+						<code>.text.default</code>
+						<p><strong>P .default </strong> > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<h2 >H2 Lorem ipsum dolor sit amet,</h1>
+						<code>.text.default</code>
+						<p><strong>P .default </strong> > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<h3 >H3 Lorem ipsum dolor sit amet,</h3>
+						<code>.text.default</code>
+						<p><strong>P .default </strong> > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<h4 >H4 Lorem ipsum dolor sit amet,</h4>
+						<code>.text.default</code>
+						<p><strong>P .default </strong> > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<h5 >H5 Lorem ipsum dolor sit amet,</h5>
+						<code>.-small</code>
+						<p class="-small"><strong>P .small</strong> > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					
+				</div>
+				<div class="td">
+					
+						<h1>H1 Lorem ipsum dolor sit amet,</h1>
+						<code>.text.-large</code>
+						<p class="-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+						<h2>H1 Lorem ipsum dolor sit amet,</h2>
+						<code>.text.medium</code>
+						<p  class="-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+
+
+		
+			<!-- 
+				FONT SPACING
+			-->
+			<h3 id="FONT-SPACING" class="subtitle">FONT SPACING</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<p>Font spacing is native, check if on font sizes section</p>
+			
+			<div class="space -gap-s"></div>
+
+			
+			<hr class="-mar-v-m -b -b-light-gray">	
+
+			<!-- 
+				IMAGES
+			-->
+			<h3 id="IMAGES" class="subtitle">IMAGES</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+				
+			
+
+			<div class="space -gap-s"></div>
+
+			<div class="tr -tr12 -gap-l">
+				<div class="td -td4">
+					<h5>Floating image</h5>
+					<figure class="float">
+						<img
+							width="80px"
+							sizes="30vw"
+							srcset="img/new-logo-large.png 898w,
+								img/new-logo-medium.png 539w,
+								img/new-logo-small.png 269w,
+								img/new-logo-xsmall.png 90w"
+							alt="img"/>
+					</figure>
+
+					<p>90`s retro style to show images with floated text like grandpa newspaper. </p><p class="-clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				
+				<div class="td -td3">
+					<h5>Default image</h5>
+					<figure>
+						<img
+						  sizes="30vw"
+						  srcset="img/new-logo-large.png 898w,
+						          img/new-logo-medium.png 539w,
+						          img/new-logo-small.png 269w,
+						          img/new-logo-xsmall.png 90w"
+
+						  alt="img">
+					<figure>
+				</div>
+
+				<div class="td -td5">
+					<h5>Cover image</h5>
+					<figure class="cover">
+					<img
+					  sizes="40vw"
+					  srcset="img/new-logo-large.png 898w,
+					          img/new-logo-medium.png 539w,
+					          img/new-logo-small.png 269w,
+					          img/new-logo-xsmall.png 90w"
+
+					  alt="img">
+					</figure>
+
+				</div>
+			</div>
+
+			<div class="space -gap-s"></div>
+<pre class="-pad-h-s">
+	<code data-language="HTML">	
+<div class="tr  -td-pad-s  -tr12 -gap-s">
+	<div class="td -td4">
+		<h5>Floating image</h5>
+		<figure class="float">
+			<img
+				width="80px"
+				sizes="30vw"
+				srcset="img/new-logo-large.png 898w,
+				img/new-logo-medium.png 539w,
+				img/new-logo-small.png 269w,
+				img/new-logo-xsmall.png 90w"
+				alt="img"/>
+		</figure>
+		<p>90`s retro style to show images with floated text like grandpa newspaper...</p>
+	</div>
+	
+	<div class="td -td3">
+		<h5>Default image</h5>
+		<figure>
+			<img
+				sizes="30vw"
+				srcset="img/new-logo-large.png 898w,
+				img/new-logo-medium.png 539w,
+				img/new-logo-small.png 269w,
+				img/new-logo-xsmall.png 90w"
+				alt="img">
+		<figure>
+	</div>
+
+	<div class="td -td5">
+		<h5>Cover image</h5>
+		<figure class="cover">
+			<img
+				sizes="40vw"
+				srcset="img/new-logo-large.png 898w,
+				img/new-logo-medium.png 539w,
+				img/new-logo-small.png 269w,
+				img/new-logo-xsmall.png 90w"
+		  		alt="img">
+		</figure>
+
+	</div>
+</div>
+	</code>
+</pre>
+<div class="space -gap-s"></div>
+
+
+			<!-- 
+				HAIRLINE
+			-->
+			<h3 id="HAIRLINE" class="subtitle">HAIRLINE</h3>
+			<!-- ! ----------------------------------------------------------------------------------------------------- -->
+
+			<p>Hairline clone border class</p>
+			
+			<div class="space -gap-m"></div><code class="-pad-xs -bg-c-primary">-b</code><div class="space -gap-s"></div>
+	
+
+			
+
+		
+					
+			
+	
+			</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
+
+
+
+
+<!--
+	copy this:
+	https://codersblock.com/blog/highlight-text-inside-a-textarea/#the-plan
+

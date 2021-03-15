@@ -1,0 +1,44 @@
+/* 
+	_ _ _ _ ___  ___ _  _
+	| | | | |  \  |  |__|
+	|_|_| | |__/  |  |  |
+	---------------------------------------------------------------------------------------
+	WIDTH 
+*/
+
+	.-w-default{
+		width:50vw;
+	}
+	.-w-wide{
+		width:65vw;
+	}
+	.-w-min{
+		width:min-content;
+		
+	}
+	.-w-full, .-td-w-full > *{
+		width:100%;
+	}
+	.-w-cr{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.-w-min > .td{
+		overflow: initial;
+	}
+
+	/*
+	MODAL
+	*/
+	.-fix{
+		position:fixed;
+	}
+	.-w-full{
+		left:0; right:0; top:0; bottom:0;
+		width:100%;
+		height:100%;
+	}
+	.-h-wide{
+		height:80vh;
+		top:10vh;
+	}
